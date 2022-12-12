@@ -3,5 +3,5 @@
 # Makefile for list implementation and test file.
 #
 # <Asha Anderson>
-list: main.c list.c
-	gcc -o list main.c list.c -I.
+list: list.c main.c
+	gcc -o list list.c main.c -I.
